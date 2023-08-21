@@ -1,0 +1,8 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+4C:AE:1C:C3:CC:19, 2023-08-08 21:40:26, 2023-08-08 21:42:30,  8, 130, WPA2, CCMP TKIP, PSK, -73,     1193,      510,   0.  0.  0.  0,   5, Pihoo, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+3E:42:E0:09:A9:67, 2023-08-08 21:40:26, 2023-08-08 21:41:28, -79,      921, 4C:AE:1C:C3:CC:19,
+94:BE:46:B1:A4:36, 2023-08-08 21:40:32, 2023-08-08 21:42:18, -89,      401, 4C:AE:1C:C3:CC:19,
+

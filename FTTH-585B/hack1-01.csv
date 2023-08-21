@@ -1,0 +1,8 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+A8:E2:07:5F:58:5B, 2023-08-08 21:52:25, 2023-08-08 21:53:31,  4, 270, WPA2, CCMP TKIP, PSK, -59,      588,      123,   0.  0.  0.  0,   9, FTTH-585B, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+96:3F:9D:F6:36:18, 2023-08-08 21:52:25, 2023-08-08 21:53:14, -80,      135, A8:E2:07:5F:58:5B,FTTH-585B
+B8:3D:4E:BE:45:F4, 2023-08-08 21:52:31, 2023-08-08 21:52:31, -84,        1, A8:E2:07:5F:58:5B,
+

